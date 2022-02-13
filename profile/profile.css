@@ -15,6 +15,33 @@ ul>li{
     font-family: 'Pacifico', cursive;
     margin-left: 1em;
 }
+.profile{
+    width: 12em;
+}
+.post{
+    font-family: 'Pacifico', cursive;
+}
+.col-sm{
+    position: relative;
+}
+
+.img-caption{
+    position: absolute;
+    top: 0em;
+    left: 0.5em;
+    width: 96%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.6);
+    opacity: 0;
+}
+.img-caption:hover{
+    opacity: 1;
+}
+a{
+    text-decoration: none;
+}
+
+
 
 @media(min-width: 768px){
     .news-input{
@@ -22,5 +49,21 @@ ul>li{
     }
     .news-inputs{
         width: 40%;
+    }
+    .profile{
+        width: 15em;
+    }
+    .img-caption{
+        position: absolute;
+        top: 0em;
+        left: 0.5em;
+        width: 96%;
+        height: 100%;
+        background-color: rgb(0, 0, 0, 0.6);
+        opacity: 0;
+        transition: opacity 0.25s;
+    }
+    .img-caption:hover{
+        opacity: 1;
     }
 }
